@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://josearicochea:aricochea2020@clustermicroservicios.2v9ccn9.mongodb.net/?retryWrites=true&w=majority
+      database: ms_user
+
+server:
+  port: 8081
