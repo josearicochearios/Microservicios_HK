@@ -1,12 +1,14 @@
 spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://josearicochea:aricochea2020@clustermicroservicios.impus97.mongodb.net/?retryWrites=true&w=majority
-      database: ms1_user
+  application:
+    name: ms-user
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5434/dbuser
+    username: postgres
+    password: abc123
 
 
 server:
-  port: 8080
+  port: 9090
 
 management:
   endpoints:
