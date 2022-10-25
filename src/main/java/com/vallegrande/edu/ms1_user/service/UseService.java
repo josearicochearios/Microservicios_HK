@@ -13,7 +13,6 @@ public interface UseService {
 
     Mono<User> save(User user);
 
-    Mono<User> update(User user);;
-
+    Mono<User> update(User user);
 
 }
