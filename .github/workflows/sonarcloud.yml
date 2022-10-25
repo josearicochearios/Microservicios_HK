@@ -2,7 +2,7 @@ name: SonarCloud
 on:
   push:
     branches: 
-    - ms1_User
+    - ms1_user
 
 
 jobs:
